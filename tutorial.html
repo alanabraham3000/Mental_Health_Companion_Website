@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Video Tutorial Page</title>
+    <link rel="stylesheet" type="text/css" href="stylest.css" />
+    <style>
+      body {
+         margin-top: 50px;
+        padding: 0;
+        display: flex;
+        flex-direction: column;
+        background-image: url(background.png);
+        background-repeat: no-repeat;
+        background-size: cover;
+        height: 100%;
+        /*position: relative;*/
+      }
+      nav{
+        margin-left: 80px;
+      }
+      header{
+        background-color: url(background.png);
+        
+      }
+      nav ul {
+        list-style: none;
+        margin: 0;
+        padding: 10px;
+        overflow: hidden;
+      }
+
+      nav li {
+        float: left;
+      }
+
+      nav li a {
+        display: block;
+        color: #ffffff;
+        text-align: center;
+        font-size: medium;
+        padding: 14px 16px;
+        text-decoration: none;
+      }
+      
+      nav ul li a.active {
+        background-color: rgb(52, 52, 234); /* Example active tab background color */
+        color:black; /* Example active tab text color */
+        box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+      }
+
+      nav li a:hover {
+        background-color: #e4d7d7;
+        color: #000000;
+      }
+      .video-container{
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: row;
+        justify-content: center;
+      }
+      .video-box{
+        margin: 50px;
+        border: 10px solid none;
+        
+      }
+      .card-container {
+        width: 500px;
+        height: 500px;
+        position: relative;
+        border-radius: 10px;
+        padding: 5%;
+        margin-top: 7%;
+        margin-left: 34%;
+      .vid3{
+        display: flex;
+        align-items: center;
+
+      }
+      }
+    </style>
+  </head>
+  <body>
+    <nav>
+      <ul>
+        <li><a href="index.php">Home</a></li>
+        <li><a href="resource.html">Resources</a></li>
+        <li><a href="symptoms.html">Symptoms</a></li>
+        <li><a class="active" href="tutorial.html">Tutorials</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="feedback.php">Feedback</a></li>
+      </ul>
+    </nav>
+    <script type="text/javascript">
+      (function(d, m){
+          var kommunicateSettings = 
+              {"appId":"ac248645c24dd0b6a239761d2ccb0917","popupWidget":true,"automaticChatOpenOnNavigation":true};
+          var s = document.createElement("script"); s.type = "text/javascript"; s.async = true;
+          s.src = "https://widget.kommunicate.io/v2/kommunicate.app";
+          var h = document.getElementsByTagName("head")[0]; h.appendChild(s);
+          window.kommunicate = m; m._globals = kommunicateSettings;
+      })(document, window.kommunicate || {});
+  /* NOTE : Use web server to view HTML files as real-time update will not work if you directly open the HTML file in the browser. */
+  </script>
+    <main>
+     <div class="video-container"> 
+      <section class="video-box">
+        <h2>How to handle a Panic Attack:Yoga Technique</h2>
+        <iframe width="750" height="422" src="https://www.youtube-nocookie.com/embed/QtG_bGD9DM4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+      </section>
+
+      <section class="video-box">
+        <h2>How to deal with Social Anxiety</h2>
+        <iframe width="750" height="422" src="https://www.youtube-nocookie.com/embed/XIrQKo-d7h4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+      </section>
+
+      <section class="video-box">
+        <h2>How to reduce your Stress:Breathing Technique</h2>
+        <iframe width="750" height="422" src="https://www.youtube-nocookie.com/embed/CQjGqtH-2YI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+      </section>
+
+      <section class="video-box">
+        <h2>Tips to reduce Anxiety</h2>
+        <iframe width="750" height="422" src="https://www.youtube-nocookie.com/embed/ttHu_N-zAnQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+      </section>
+     </div> 
+    </main>
+  </body>
+</html>

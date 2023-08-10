@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link
+      rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css"
+    />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"
+      integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi"
+      crossorigin="anonymous"
+    />
+    <style>
+      body {
+        margin-top: 50px;
+        padding: 0;
+        background-image: url(background.png);
+        background-repeat: no-repeat;
+        background-size: cover;
+        height: 100%;
+        position: relative;
+      }
+      nav{
+        margin-left: 80px;
+      }
+      nav ul {
+        list-style: none;
+        margin: 0;
+        padding: 10px;
+        overflow: hidden;
+      }
+
+      nav li {
+        float: left;
+      }
+      .button {
+        margin-left: 45%;
+        margin-top: 2%;
+      }
+      nav li a {
+        display: block;
+        color: #ffffff;
+        text-align: center;
+        font-size: medium;
+        padding: 14px 16px;
+        text-decoration: none;
+      }
+
+      nav ul li a.active {
+        background-color: rgb(52, 52, 234); /* Example active tab background color */
+        color:black; /* Example active tab text color */
+        box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+      }
+
+      nav li a:hover {
+        background-color: #e4d7d7;
+        color: #000000;
+      }
+      .container {
+        margin-top: 50px;
+
+        margin-right: 80px;
+      }
+      .container h1 {
+        color: #ffffff;
+      }
+      .container p {
+        color: #ffffff;
+        text-align: justify;
+      }
+    </style>
+  </head>
+  <body>
+    <nav>
+      <ul>
+        <li><a href="index.php">Home</a></li>
+        <li><a href="resource.html">Resources</a></li>
+        <li><a href="symptoms.html">Symptoms</a></li>
+        <li><a href="tutorial.html">Tutorials</a></li>
+        <li><a class="active" href="about.html">About</a></li>
+        <li><a href="feedback.php">Feedback</a></li>
+      </ul>
+    </nav>
+    <script type="text/javascript">
+      (function(d, m){
+          var kommunicateSettings = 
+              {"appId":"ac248645c24dd0b6a239761d2ccb0917","popupWidget":true,"automaticChatOpenOnNavigation":true};
+          var s = document.createElement("script"); s.type = "text/javascript"; s.async = true;
+          s.src = "https://widget.kommunicate.io/v2/kommunicate.app";
+          var h = document.getElementsByTagName("head")[0]; h.appendChild(s);
+          window.kommunicate = m; m._globals = kommunicateSettings;
+      })(document, window.kommunicate || {});
+  /* NOTE : Use web server to view HTML files as real-time update will not work if you directly open the HTML file in the browser. */
+  </script>
+    <div class="container">
+      <h1>About</h1>
+      <p style="font-size: 14px;">
+        Companion is a user-friendly website for comprehensive mental health tracking. It provides personalized insights, goal setting, and secure data management, empowering individuals to improve their well-being. With Companion, users can easily track and monitor their mental health progress over time. The platform offers various features such as mood tracking, sleep analysis, and stress level assessment, allowing users to gain valuable insights into their mental well-being patterns. By setting personalized goals within the platform, users can establish actionable steps to enhance their mental health and work towards achieving their desired outcomes. Companion prioritizes the security and privacy of user data, ensuring that all sensitive information is securely managed and protected. With its intuitive interface and powerful features, Companion is a valuable tool for individuals seeking to take control of their mental health and make positive changes in their lives.
+      </p>
+      <p style="font-size: 15px;">
+        For more infomation <br> Contact <br>
+        Mail: companion@gmail.com <br>
+        Mobile: +91 1234567890 <br>
+        Office: 1234, ABC Nagar, Mumbai, Maharashtra, 400001 <br>
+      </p>
+    </div>
+    
+  </body>
+</html>

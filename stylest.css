@@ -1,0 +1,80 @@
+/* Reset default margins and paddings */
+body,
+h1,
+h2,
+video {
+  margin: 0;
+  padding: 0;
+}
+
+/* Set background color and font styles for the body */
+body {
+  background-image: url(background.png);
+  font-family: Arial, sans-serif;
+  color: #333;
+}
+
+/* Style the header */
+header {
+  background-color: #3f61c7;
+  padding: 20px;
+  text-align: center;
+}
+
+h1 {
+  color: #fff;
+  font-size: 32px;
+  margin-bottom: 10px;
+}
+
+/* Style the main content area */
+main {
+  padding: 20px;
+}
+
+section {
+  margin-bottom: 20px;
+}
+
+h2 {
+  font-size: 24px;
+  margin-bottom: 10px;
+  color: #fff;
+}
+
+video {
+  display: block;
+  width: 100%;
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+nav ul {
+  list-style: none;
+  margin: 0;
+  padding: 10px;
+  overflow: hidden;
+}
+
+nav li {
+  float: left;
+}
+
+.button {
+  margin-left: 45%;
+  margin-top: 2%;
+}
+
+nav li a {
+  display: block;
+  color: #ffffff;
+  text-align: center;
+  font-size: medium;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+nav li a:hover {
+  background-color: #e4d7d7;
+  color: #000000;
+}
